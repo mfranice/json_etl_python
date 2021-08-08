@@ -46,4 +46,19 @@ if __name__ == '__main__':
     # y verifique si los primeros usuarios (mirando la página a ojo)
     # los datos recolectados son correctos.
 
+    response = requests.get(url)
+    data = response.json()
+
+    titulo_completo = [x.get("userId") for x in data if x["completed"] == True]
+    cant_titulos_completos = [titulo_completo.count(i) for i in range(1,11)]
+    print(cant_titulos_completos)
+        
+    fig = plt.figure()
+    fig.suptitle('Títulos completados por usuario', fontsize = 16)
+    ax = fig.add_subplot()
+    ax.bar(range(1,11), cant_titulos_completos, color = 'gray')
+    ax.set_xlabel('Usuario')
+    ax.set_ylabel('Cantidad de Títulos completados')
+    plt.show()
+
     print("terminamos")
