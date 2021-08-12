@@ -2,9 +2,9 @@
 A esta altura del curso el alumno posee ya una serie de habilidades muy vinculadas entre si las cuales son:
 - Análisis, filtrado y trabajo de información.
 - Capacidad para utilizar formatos de datos de transacciones, APIs, Apps.
-- Poder mostrar los resultados en un gráfico y generar un reporte o un trablero de control.
+- Poder mostrar los resultados en un gráfico y generar un reporte o un tablero de control.
 
-EL propósito de este ejercicio es que el alumno ponga a prueba estas facultades ya que este momento del curso es un momento bisagra, lo próximo que se verá de aquí en más son herramientas o procesos para mejorar estos 3 pilares (bases de datos, exponer una API, generar reportes web).
+El propósito de este ejercicio es que el alumno ponga a prueba estas facultades ya que este momento del curso es un momento bisagra, lo próximo que se verá de aquí en más son herramientas o procesos para mejorar estos 3 pilares (bases de datos, exponer una API, generar reportes web).
 
 # MELI API [Python]
 Haremos uso de la API pública de mercadolibre para analizar alquileres y departamentos, muy similar a lo que ya estuvieron practicando pero dándole el enfoque de una problemática real.
