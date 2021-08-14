@@ -57,6 +57,7 @@ if __name__ == '__main__':
     fig.suptitle('Títulos completados por usuario', fontsize = 16)
     ax = fig.add_subplot()
     ax.bar(range(1,11), cant_titulos_completos, color = 'gray')
+    plt.xticks(range(1,11))
     ax.set_xlabel('Usuario')
     ax.set_ylabel('Cantidad de Títulos completados')
     plt.show()
